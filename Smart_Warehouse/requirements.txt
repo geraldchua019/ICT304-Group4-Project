@@ -2,3 +2,6 @@ streamlit
 opencv-python
 numpy
 pandas
+ultralytics
+pdfplumber
+easyocr
