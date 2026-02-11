@@ -1,0 +1,8 @@
+streamlit
+pandas
+streamlit
+opencv-python
+numpy
+ultralytics
+pdfplumber
+easyocr
