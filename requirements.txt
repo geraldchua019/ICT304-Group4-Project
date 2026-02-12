@@ -7,3 +7,4 @@ ultralytics
 pdfplumber
 openpyxl
 easyocr
+scikit-learn
