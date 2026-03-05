@@ -5,3 +5,6 @@ pandas
 ultralytics
 pdfplumber
 easyocr
+transformers
+python-barcode
+Pillow
