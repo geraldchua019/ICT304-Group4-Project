@@ -1,0 +1,15 @@
+streamlit
+pandas
+streamlit
+opencv-python
+numpy
+ultralytics
+pdfplumber
+openpyxl
+easyocr
+scikit-learn
+transformers
+python-barcode
+Pillow
+torch
+torchvision

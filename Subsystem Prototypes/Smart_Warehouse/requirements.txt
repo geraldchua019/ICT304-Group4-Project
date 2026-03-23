@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+numpy
+pandas
+ultralytics
+pdfplumber
+easyocr
+transformers
+python-barcode
+Pillow
