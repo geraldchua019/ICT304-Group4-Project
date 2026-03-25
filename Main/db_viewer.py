@@ -141,9 +141,7 @@ def _overview(db):
             i1, i2, i3, i4 = st.columns(4)
             i1.metric("SKUs",       inv.get("total_skus") or 0)
             i2.metric("Total Units",f"{inv.get('total_items') or 0:,}")
-            _tv = inv.get('total_value') or 0
-            _tv_str = f"${_tv/1_000_000:.1f}M" if _tv >= 1_000_000 else f"${_tv/1_000:.0f}K" if _tv >= 1_000 else f"${_tv:,.0f}"
-            i3.metric("Total Value", _tv_str)
+            i3.metric("Total Value",f"${inv.get('total_value') or 0:,.0f}")
             i4.metric("Low Stock",  inv.get("low_stock_count") or 0)
         else:
             st.info("No inventory data yet.")
